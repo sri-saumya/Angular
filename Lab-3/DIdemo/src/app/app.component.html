@@ -1,0 +1,29 @@
+<h1 class = "text-center">{{title}}</h1>
+<hr/> 
+<button class="btn btn-dark" (click) = 'senddata()'>Error Handler</button>
+<br>
+<br>
+<div class="row">
+    <div class="col-md-4">
+        <button class="btn btn-warning btn-block" routerLink = ''>HOME</button>
+    </div>
+
+    <div class="col-md-4">
+        <button class="btn btn-info btn-block" routerLink = '/customers'>Customers</button>
+    </div>
+
+    <div class="col-md-4">
+        <button class="btn btn-info btn-block" routerLink = '/orders'>Orders</button>
+    </div>
+</div>
+<br>
+<br>
+
+
+
+<router-outlet></router-outlet>
+<hr/>
+<app-child1>Child 1 -</app-child1>
+<app-child2>Child 2 -</app-child2>
+
+
